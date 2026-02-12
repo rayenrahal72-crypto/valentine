@@ -7,23 +7,43 @@
 </head>
 <body>
 
+
 <div class="hearts"></div>
 
 <h1>❤️ Our Memories ❤️</h1>
 
 <div class="gallery">
-<img src="img1.jpg">
-<img src="img2.jpg">
-<img src="img3.jpg">
-<img src="img4.jpg">
-<img src="img5.jpg">
-<img src="img6.jpg">
+<img src="img1.jpeg" class="gallery-img">
+<img src="img2.jpeg" class="gallery-img">
+<img src="img3.jpeg"class="gallery-img">
+<img src="img4.jpeg"class="gallery-img">
+<img src="img5.jpeg"class="gallery-img">
+<img src="img6.jpeg"class="gallery-img">
 </div>
 
 <div class="counter" id="counter"></div>
 <h2 class="love">I love you ❤️</h2>
 <button onclick="goToLetter()">Next</button>
+<div id="lightbox" onclick="closeImage()">
+    <img id="lightbox-img">
+</div>
 
+<script>
+const images = document.querySelectorAll(".gallery-img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+images.forEach(img => {
+    img.addEventListener("click", () => {
+        lightbox.style.display = "flex";
+        lightboxImg.src = img.src;
+    });
+});
+
+function closeImage() {
+    lightbox.style.display = "none";
+}
+</script>
 <script src="script.js"></script>
 </body>
 </html>
