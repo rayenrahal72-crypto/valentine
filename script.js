@@ -31,7 +31,7 @@ function goToLetter(){
     window.location.href = "letter.html";
 }
 
-const letter = "My love, since 18 June 2022, time has not just passed... it has blossomed. Every day with you is a blessing I thank destiny for. You are my forever, my always, my everything.";
+const letter = "My love, mn 18 June 2022 wlh ltw hobi lik 9a3d yzid alkhrrrrr wlh rghm l sar lkl wrghm tsrfty wlh wlh sd9ni saat nhes rhy abed mhboul wla dekhl f hyt wla mrydh wla wlh le naarf khtr o9sm bleh sd9ni l aamltu lkl m aandu hta aale9a b eli nhs fih wlh laaadhym jmla jmla o9sm bleh nktblk fl klem hdha wmttswrsh sh9a3d nhs maah wlh nhb n9olk nhbk brshaaa bdhyba wsmhny ala kl wji3a khalitk thes byha w ala ehss lkorh b dhet l thes fih wlh laadhym enty hyety lkl ritk bnty wlh wlhhh wshnb9a dima nrak akeka wnrdha lwji3a l rhy wmnrdhhsh fik wlh rnym wlh blh9 smhny wnchlh tkoun 3jbetk lfza 3l a9al wlh khtr naarf l asln s3ib brshaaaa tkoun andha hta rbo3 t2thyr wlh bl akhas b3d l hsytu w eli thes byh ama sd9ni mli rwht w ena n7dhr fih wlh jetni lfkra 9bila wlh rwht njri w ena nheb n3mlha wlh nchlh tkn farhetk hta shwy wlh 9a3d nhb nl9a ay hja tnjm tfrhk f lhdha hdhy bdhet khtr naarf 9adeksh mst79tha tw wlhhh bdhybty nhbk brshaaaaa wnchlh yrby nrak dima frhna wlh ❤️❤️❤️";
 
 let j = 0;
 function typeLetter() {
