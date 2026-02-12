@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Unlock My Heart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+<div class="hearts"></div>
+
+<div class="center-box">
+<h1 class="h1">❤️ Unlock My Heart ❤️</h1>
+<input type="password" id="password" placeholder="Enter the special date (DD/MM/YY)">
+<button onclick="checkPassword()" class="butt">Unlock</button>
+<p id="error"></p>
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('bgMusic').play()">
+    ▶️ Activer la musique
+</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>
